@@ -15,6 +15,8 @@
 		141E0C22209DDFCF00D9C46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141E0C20209DDFCF00D9C46F /* LaunchScreen.storyboard */; };
 		141E0C2D209DDFD000D9C46F /* SLOTCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E0C2C209DDFD000D9C46F /* SLOTCounterTests.swift */; };
 		141E0C38209DDFD000D9C46F /* SLOTCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E0C37209DDFD000D9C46F /* SLOTCounterUITests.swift */; };
+		148FA89020A19903009C9C47 /* Count.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148FA88F20A19903009C9C47 /* Count.storyboard */; };
+		148FA89220A19CF8009C9C47 /* CountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148FA89120A19CF8009C9C47 /* CountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		141E0C33209DDFD000D9C46F /* SLOTCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLOTCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141E0C37209DDFD000D9C46F /* SLOTCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOTCounterUITests.swift; sourceTree = "<group>"; };
 		141E0C39209DDFD000D9C46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148FA88F20A19903009C9C47 /* Count.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Count.storyboard; sourceTree = "<group>"; };
+		148FA89120A19CF8009C9C47 /* CountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				141E0C20209DDFCF00D9C46F /* LaunchScreen.storyboard */,
 				141E0C23209DDFCF00D9C46F /* Info.plist */,
 				141E0C1B209DDFCF00D9C46F /* SLOTCounter.xcdatamodeld */,
+				148FA88F20A19903009C9C47 /* Count.storyboard */,
+				148FA89120A19CF8009C9C47 /* CountViewController.swift */,
 			);
 			path = SLOTCounter;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148FA89020A19903009C9C47 /* Count.storyboard in Resources */,
 				141E0C22209DDFCF00D9C46F /* LaunchScreen.storyboard in Resources */,
 				141E0C1F209DDFCF00D9C46F /* Assets.xcassets in Resources */,
 				141E0C1A209DDFCF00D9C46F /* Main.storyboard in Resources */,
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148FA89220A19CF8009C9C47 /* CountViewController.swift in Sources */,
 				141E0C1D209DDFCF00D9C46F /* SLOTCounter.xcdatamodeld in Sources */,
 				141E0C17209DDFCF00D9C46F /* ViewController.swift in Sources */,
 				141E0C15209DDFCF00D9C46F /* AppDelegate.swift in Sources */,

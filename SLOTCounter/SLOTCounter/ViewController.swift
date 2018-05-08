@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.delegate = self
+        let sb = UIStoryboard(name: "Count", bundle: nil)
+        let vc = sb.instantiateInitialViewController() as! CountViewController
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
 }
